@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.show{
+    width: 100%;
+    background-color: aliceblue;
+    height: 60rpx;
+    font-size: 50rpx;
+    display: flex;
+    align-items: center;
+}
+.operators{
+    width: 100%;
+    background-color: lavender;
+    display: flex;
+}
+.operator{
+    font-size: 50rpx;
+    font-weight: 900;
+    color: darkorange;
+    border-width: medium;
+    border-color: burlywood;
+    border-style: solid;
+    margin-right: 2rpx;
+}
+.numbers{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.number{
+    width: 31.9%;
+    font-size: 50rpx;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+    border-width: medium;
+    border-color: burlywood;
+    border-style: solid;
+}
+.sup{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 200rpx;
+    height: 200rpx;
+    font-size: 100rpx;
+    animation: ani 3s infinite linear;
+    opacity: 0;
+}
+@keyframes ani {
+     0%{
+        top: 0rpx;
+        opacity: 0;
+     }
+     100%{
+        top:100vh;
+        opacity: 1;
+     }
+}

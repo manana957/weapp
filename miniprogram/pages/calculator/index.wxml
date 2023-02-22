@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="show">{{value}}</view>
+    <view class="operators" >
+        <button class="operator" data-type="+" bind:tap="clickOperator">+</button>
+        <button class="operator" data-type="-" bind:tap="clickOperator">-</button>
+        <button class="operator" data-type="×" bind:tap="clickOperator">×</button>
+        <button class="operator" data-type="÷" bind:tap="clickOperator">÷</button>
+        <button class="operator" bind:tap="clear">C</button>
+    </view>
+    <view class="numbers" >
+        <view wx:for="{{numbers}}" class="number" data-number="{{item}}" bind:tap="clickNumber">{{item}}</view>
+    </view>
+    <view class="sup" wx:if="{{sup}}">{{sup}}</view>
+</view>

@@ -1,4 +1,3 @@
 <view class="container">
-    <text class="text">test</text>
-    <button type="primary" >button</button>
+    <button type="primary" bind:tap="goCalculator">去计算器</button>
 </view>
