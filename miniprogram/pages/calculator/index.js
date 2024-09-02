@@ -2,6 +2,7 @@ let store = 0
 let op = undefined;
 let storeOp = undefined;
 const supPattern = ["💰","🌲","🍒","💃🏻","🍊","💥","⭐️","🥔","🍕","🧋"]
+
 Page({
     data: {
         value: 0,

@@ -1,0 +1,8 @@
+<view class="container">
+    请在今天
+    <view class="input-container">
+    <input class="input" type="number" maxlength="2" bindblur="checkHour"/>: <input class="input" type="number" maxlength="2" bindblur="checkMin"/>
+    </view>
+    提醒我喝水
+  <button class="button" type="primary" bindtap="subscribe">订阅通知</button>
+</view>

@@ -1,0 +1,1 @@
+<view bind:tap="signUp">开始</view>
